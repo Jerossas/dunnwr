@@ -5,20 +5,25 @@
     <meta charset="UTF-8" />
     <title>
         {{ block "title" . }}
-            {{ .Site.Title }}
+        {{ .Site.Title }}
         {{ end }}
     </title>
+
+    {{ $styles := resources.Get "css/main.scss" | toCSS }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 </head>
 
-<body class="page">
+<body class="site">
     {{ partial "header.html" . }}
 
-    <main>
-        {{ block "main" . }}
-        {{ end }}
+    <main class="site-main">
+        <div class="site-main__inner">
+            {{ block "main" . }}
+            {{ end }}
+        </div>
     </main>
 
-    
+    {{ partial "footer.html" . }}
 </body>
 
 </html>

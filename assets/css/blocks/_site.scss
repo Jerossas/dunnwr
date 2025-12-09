@@ -1,0 +1,11 @@
+
+.site {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #fff;
+  color: #111;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
