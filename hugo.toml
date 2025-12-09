@@ -1,3 +1,24 @@
 baseURL = 'https://jerossas.github.io/dunnwr/'
-languageCode = 'en-us'
+languageCode = 'es-co'
 title = 'Dunnwr'
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Blog"
+        url = "/blog/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Learn"
+        url = "/learn/"
+        weight = 1
+
+    [[menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 1

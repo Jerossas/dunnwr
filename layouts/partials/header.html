@@ -1,0 +1,13 @@
+<header class="site-header">
+    <a href="/" class="site-header__logo">Dunnwr</a>
+
+    <nav class="site-header__nav">
+        <ul class="site-header__nav-list">
+            {{ range .Site.Menus.main }}
+                <li class="site-header__nav-item">
+                    <a href="{{ .URL }}" class="site-header__nav-link">{{ .Name }}</a>
+                </li>
+            {{end}}
+        </ul>
+    </nav>
+</header>
