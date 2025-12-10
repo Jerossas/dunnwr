@@ -1,7 +1,7 @@
-@use "utils/variables";
-@use "utils/mixins";
-@use "utils/base";
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/base";
 
-@use "blocks/site";
-@use "blocks/site-header";
-@use "blocks/site-main";
+@import "blocks/site";
+@import "blocks/site-header";
+@import "blocks/site-main";

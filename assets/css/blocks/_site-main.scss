@@ -1,11 +1,11 @@
 
 .site-main {
-    flex: 1; // se estira entre header y footer
+    flex: 1;
     padding-block: 2rem;
 }
 
 .site-main__inner {
-    max-width: 960px;
+    max-width: 48rem;
     margin: 0 auto;
     padding-inline: 1.5rem;
 }
