@@ -27,7 +27,8 @@
 
     {{ partial "footer.html" . }}
 
-    <script src="/js/site-header.js" defer></script>
+    <script src="{{ "js/site-header.js" | relURL }}" defer></script>
+
 </body>
 
 </html>
