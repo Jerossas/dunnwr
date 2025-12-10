@@ -1,8 +1,15 @@
 <header class="site-header">
   <div class="site-header__inner">
-    <a href="{{ "/" | relURL }}" class="site-header__logo-link">
+    <a href="{{ " /" | relURL }}" class="site-header__logo-link">
       <span class="site-header__logo-text">Dunnwr</span>
     </a>
+
+    <button class="site-header__toggle" type="button" aria-label="Abrir menú de navegación" aria-expanded="false"
+      aria-controls="main-nav" data-site-header-toggle>
+      <span class="site-header__toggle-bar"></span>
+      <span class="site-header__toggle-bar"></span>
+      <span class="site-header__toggle-bar"></span>
+    </button>
 
     <nav class="site-header__nav" aria-label="Navegación principal">
       <ul class="site-header__nav-list">
