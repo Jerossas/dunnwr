@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <article class="blog-post">
+    <header class="blog-post__header">
+      <p class="blog-post__section-label">Blog</p>
+
+      <h1 class="blog-post__title">
+        {{ .Title }}
+      </h1>
+
+      <p class="blog-post__meta">
+        <time class="blog-post__date" datetime="{{ .Date }}">
+          {{ .Date.Format "02 de January de 2006" }}
+        </time>
+        {{ with .Params.author }}
+          <span class="blog-post__author"> · {{ . }}</span>
+        {{ end }}
+      </p>
+    </header>
+
+    <div class="blog-post__content">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}
