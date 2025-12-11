@@ -1,24 +1,37 @@
 <header class="site-header" data-site-header>
   <div class="site-header__inner">
-    <a href="{{ "" | relURL }}" class="site-header__logo-link">
-      <span class="site-header__logo-text">Dunnwr</span>
-    </a>
+    <div class="site-header__top">
+      <a href="{{ "" | relURL }}" class="site-header__logo-link">
+        <span class="site-header__logo-text">Dunnwr</span>
+      </a>
 
-    <button class="site-header__toggle" type="button" aria-label="Abrir menú de navegación" aria-expanded="false"
-      aria-controls="main-nav" data-site-header-toggle>
-      <span class="site-header__toggle-bar"></span>
-      <span class="site-header__toggle-bar"></span>
-      <span class="site-header__toggle-bar"></span>
-    </button>
+      <button
+        class="site-header__toggle"
+        type="button"
+        aria-label="Abrir menú de navegación"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        data-site-header-toggle
+      >
+        <span class="site-header__toggle-bar"></span>
+        <span class="site-header__toggle-bar"></span>
+        <span class="site-header__toggle-bar"></span>
+      </button>
+    </div>
 
-    <nav class="site-header__nav" id="main-nav" aria-label="Navegación principal" data-site-header-nav>
+    <nav
+      class="site-header__nav"
+      id="main-nav"
+      aria-label="Navegación principal"
+      data-site-header-nav
+    >
       <ul class="site-header__nav-list">
         {{ range .Site.Menus.main }}
-        <li class="site-header__nav-item">
-          <a href="{{ .URL }}" class="site-header__nav-link">
-            {{ .Name }}
-          </a>
-        </li>
+          <li class="site-header__nav-item">
+            <a href="{{ .URL }}" class="site-header__nav-link">
+              {{ .Name }}
+            </a>
+          </li>
         {{ end }}
       </ul>
     </nav>
