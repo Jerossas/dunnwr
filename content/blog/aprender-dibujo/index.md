@@ -10,7 +10,7 @@ Estoy en el jale, y como no puedo entrar ninguna monda, toda dibujar a mouse.
 
 Estos son algunas de las cosas que he hecho para empezar a practicar. 
 
-Este esta fino fino jijija
+Este esta fino fino jijija  
 ![Enamorao](canvas.png)
 
 ![expresiones](canvas(1).png)
