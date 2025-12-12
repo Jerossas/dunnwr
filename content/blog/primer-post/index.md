@@ -1,6 +1,6 @@
 +++
 title = "Mi primer post en Dunnwr"
-date = 2025-01-15T10:30:00
+date = 2025-12-11T10:30:00
 author = "Joan Ferley Mosquera Lozano"
 +++
 
