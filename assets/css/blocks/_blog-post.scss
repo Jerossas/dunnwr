@@ -113,6 +113,15 @@
     color: #555;
     font-style: italic;
   }
+
+  &__content img {
+    max-width: 100%;
+    height: auto;
+
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 6px;
+  }
 }
 
 /* pequeño ajuste para pantallas pequeñas */
