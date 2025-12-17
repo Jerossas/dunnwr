@@ -9,6 +9,7 @@
 
   <div class="blog-list__grid">
     {{ range .Paginator.Pages }}
+    {{ $page := . }}
     <article class="blog-card">
       {{ with $page.Params.cover }}
       {{ $cover := $page.Resources.GetMatch . }}
@@ -49,6 +50,7 @@
       </div>
     </article>
     {{ end }}
+
   </div>
 
   {{ template "_internal/pagination.html" . }}
