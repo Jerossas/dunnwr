@@ -2,6 +2,8 @@
 title = "Mi primer post en Dunnwr"
 date = 2025-12-11T10:30:00
 author = "Joan Ferley Mosquera Lozano"
+description = "Primer post del blog :v"
+cover = "mordecai_and_rigby.jpg"
 +++
 
 Ahora mismo estoy en el trabajo :v haciendo este primer post. Estoy a punto de salir al descanso. Salgo al descanso a las 12:30pm y debo volver a la 1:00pm. ¿Muy poquito tiempo, no :v? 
