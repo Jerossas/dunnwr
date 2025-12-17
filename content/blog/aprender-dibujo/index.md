@@ -11,8 +11,8 @@ Estoy en el jale, y como no puedo entrar ninguna monda, toda dibujar a mouse.
 Estos son algunas de las cosas que he hecho para empezar a practicar. 
 
 Este esta fino fino jijija  
-![Enamorao](canvas.png)
+![Enamorao](enamorao.png "Yo dandole flores a las chica que me ama")
 
-![expresiones](canvas(1).png)
+![expresiones](bocetos.png "stick mans with different poses")
 
 :v Voy a seguir practicando y en la sección de learn podrán ver las cosas que voy a ir haciendo. Chamacos perros. 

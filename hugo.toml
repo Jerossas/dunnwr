@@ -22,3 +22,9 @@ title = 'Dunnwr'
         name = "About"
         url = "/about/"
         weight = 1
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.parser]
+            wrapStandAloneImageWithinParagraph = false
+

@@ -1,0 +1,15 @@
+{{- $src := .Destination | safeURL -}}
+<figure class="rich-image">
+  <img
+    class="rich-image__image"
+    src="{{ $src }}"
+    alt="{{ .Text }}"
+    {{ with .Title }}title="{{ . }}"{{ end }}
+    loading="lazy"
+  >
+  {{ with .Title }}
+    <figcaption class="rich-image__caption">
+      {{ . }}
+    </figcaption>
+  {{ end }}
+</figure>
