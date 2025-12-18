@@ -14,8 +14,8 @@ title = 'Dunnwr'
         weight = 1
 
     [[menu.main]]
-        name = "Learn"
-        url = "/learn/"
+        name = "Learning"
+        url = "/learning/"
         weight = 1
 
     [[menu.main]]
