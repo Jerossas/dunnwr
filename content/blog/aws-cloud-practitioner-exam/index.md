@@ -32,7 +32,7 @@ Como ven, no van a salir demasiadas preguntas sobre **Billing, Pricing, and Comp
 
 También es importante mencionar que el examen no es el mismo para todos. El examen puede variar en dificultad y la forma de calificar es a través de un modelo estadístico que no sé como funciona :v Lo que entiendo es que a aquellos que les toque preguntas más sencillas, tendrán que tener muchas preguntas buenas; y para aquellos que les toque preguntas un poco más complejas, no serán tan duros con la calificación. 
 
-Todo esto lo explican en la página oficial de AWS. El siguiente es el enlace exacto de la guía del examen: **[AWS Certified Cloud Practitioner (CLF-C02)] (https://docs.aws.amazon.com/aws-certification/latest/examguides/cloud-practitioner-02.html)**  
+Todo esto lo explican en la página oficial de AWS. El siguiente es el enlace exacto de la guía del examen: **[AWS Certified Cloud Practitioner (CLF-C02)]** (https://docs.aws.amazon.com/aws-certification/latest/examguides/cloud-practitioner-02.html)  
 
 Ahora mismo me pondre a estudiar un poco más sobre el cuarto dominio, el segundo dominio y luego repaso nuevamente **Technology and Services** que son lo que más peso tienen.
 
