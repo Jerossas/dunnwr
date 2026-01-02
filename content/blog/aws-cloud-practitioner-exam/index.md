@@ -19,7 +19,9 @@ El examen son 65 preguntas de selección única y multiple; y se divide en en cu
 - **Cloud Technology and Services**
 - **Billing, Princing, and Support.** 
 
-Siendo honesto, los dominios que me han parecido más molestos son los de Security and Compliance (más que todo la parte de compliance) y el de Billing, Pricing, and Support. Los planes de support aun no me los aprendo :v  
+Siendo honesto, los dominios que me han parecido más molestos son los de Security and Compliance (más que todo la parte de compliance) y el de Billing, Pricing, and Support. Los planes de support aun no me los aprendo :v De hecho, voy a pegar una foto aquí de los planes para repasar cuando pueda xd
+
+![AWS Support Plans](support-plans.png "CloudWolf AWS (2024) AWS Support Plans")
 
 Lo bueno es que cada dominio tiene un peso en específico, haciendolo más conveniente para estudiar. Los pesos son los siguientes:
 
