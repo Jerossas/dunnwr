@@ -3,7 +3,7 @@ title = "Rutina de Espalda"
 date = 2025-12-18T10:30:00
 author = "Joan Ferley Mosquera Lozano"
 description = "Rutina de espalda robada de Chris Bumstead"
-cover = "chris-back.jpeg"
+cover = "muscle-man.jpeg"
 +++
 
 Esta rutina me la robe de un video de **Chris Bumstead** :v La verdad se ve bastante prometedora, entonces estoy haciendo este post para cuando este en el gym, hacerla pa ve que lo que.
