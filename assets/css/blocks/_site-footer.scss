@@ -1,0 +1,12 @@
+.site-footer {
+
+    padding-block: 1rem;
+    border-top: 1px solid #ddd;
+    background-color: #f8f8f8;
+
+    &__inner {
+        max-width: 88rem;
+        margin: 0 auto;
+        padding-inline: 1.5rem;
+    }
+}
