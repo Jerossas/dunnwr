@@ -11,17 +11,17 @@ title = 'Dunnwr'
     [[menu.main]]
         name = "Blog"
         url = "/blog/"
-        weight = 1
+        weight = 2
 
     [[menu.main]]
         name = "Learning"
         url = "/learning/"
-        weight = 1
+        weight = 3
 
     [[menu.main]]
         name = "About"
         url = "/about/"
-        weight = 1
+        weight = 4
 
 [markup]
     [markup.goldmark]
