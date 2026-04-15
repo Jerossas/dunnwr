@@ -1,4 +1,4 @@
-.blog-post {
+.post {
   margin-block: 2rem 3rem;
 
   &__header {
@@ -25,10 +25,6 @@
     color: #666;
   }
 
-  /* &__date {
-    por si quieres personalizar luego
-  } */
-
   &__author {
     font-weight: 500;
   }
@@ -42,9 +38,6 @@
     padding-top: 1.5rem;
     border-top: 1px solid #e0e0e0;
   }
-
-
-  /* estilos básicos para contenido markdown */
 
   &__content p {
     margin: 0 0 1rem;
@@ -134,9 +127,8 @@
   }
 }
 
-/* pequeño ajuste para pantallas pequeñas */
 @media (max-width: 480px) {
-  .blog-post {
+  .post {
     margin-block: 1.5rem 2.5rem;
 
     &__title {

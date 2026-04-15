@@ -1,4 +1,4 @@
-.blog-list {
+.content-list {
     margin-block: 2rem 3rem;
 
     &__header {
@@ -23,7 +23,7 @@
     }
 }
 
-.blog-card {
+.card {
     border: 1px solid #e5e5e5;
     border-radius: 8px;
     padding: 1rem;
@@ -98,16 +98,14 @@
     }
 }
 
-/* 2 columnas en pantallas medianas */
 @media (min-width: 768px) {
-    .blog-list__grid {
+    .content-list__grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
-/* 3 columnas en pantallas grandes */
 @media (min-width: 1200px) {
-    .blog-list__grid {
+    .content-list__grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
