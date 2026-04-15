@@ -1,0 +1,12 @@
+{{ $src := .Get "src" }}
+{{ $img := .Page.Resources.GetMatch $src }}
+<div class="slide">
+  {{ if $img }}
+    <img src="{{ $img.RelPermalink }}" alt="{{ .Get "caption" }}" class="slide__image">
+  {{ else }}
+    <img src="{{ $src }}" alt="{{ .Get "caption" }}" class="slide__image">
+  {{ end }}
+  {{ with .Get "caption" }}
+    <p class="slide__caption">{{ . }}</p>
+  {{ end }}
+</div>
