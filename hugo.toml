@@ -13,16 +13,6 @@ title = 'Dunnwr'
         url = "/blog/"
         weight = 2
 
-    [[menu.main]]
-        name = "Learning"
-        url = "/learning/"
-        weight = 3
-
-    [[menu.main]]
-        name = "About"
-        url = "/about/"
-        weight = 4
-
 [markup]
     [markup.goldmark]
         [markup.goldmark.parser]
