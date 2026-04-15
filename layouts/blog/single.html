@@ -9,7 +9,7 @@
 
       <p class="blog-post__meta">
         <time class="blog-post__date" datetime="{{ .Date }}">
-          {{ .Date.Format "02 de January de 2006" }}
+          {{ .Date.Format "02/01/2006" }}
         </time>
         {{ with .Params.author }}
           <span class="blog-post__author"> · {{ . }}</span>

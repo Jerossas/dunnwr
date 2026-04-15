@@ -29,7 +29,7 @@
 
         <p class="blog-card__meta">
           <time datetime="{{ $page.Date }}">
-            {{ $page.Date.Format "02 de January de 2006" }}
+            {{ $page.Date.Format "02/01/2006" }}
           </time>
           {{ with $page.Params.author }}
           <span class="blog-card__author"> · {{ . }}</span>
