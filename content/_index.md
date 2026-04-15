@@ -1,5 +1,5 @@
 +++
-title = "Bienvenido a Dunnwr"
+title = "Home"
 description = "El sitio personal de Joan Ferley"
 +++
 

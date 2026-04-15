@@ -1,0 +1,44 @@
+.breadcrumb {
+  border-bottom: 1px solid #ddd;
+  background-color: #f8f8f8;
+  padding-block: 0.5rem;
+
+  &__inner {
+    max-width: 88rem;
+    margin: 0 auto;
+    padding-inline: 1.5rem;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    font-size: 0.85rem;
+    color: #666;
+
+    &::after {
+      content: "›";
+      margin-left: 0.5rem;
+    }
+
+    &--current::after {
+      content: "";
+    }
+  }
+
+  &__link {
+    color: #666;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
