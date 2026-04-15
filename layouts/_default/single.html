@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <article class="post">
+    <header class="post__header">
+      <p class="post__section-label">{{ .Section | title }}</p>
+
+      <h1 class="post__title">
+        {{ .Title }}
+      </h1>
+
+      <p class="post__meta">
+        <time class="post__date" datetime="{{ .Date }}">
+          {{ .Date.Format "02/01/2006" }}
+        </time>
+        {{ with .Params.author }}
+          <span class="post__author"> · {{ . }}</span>
+        {{ end }}
+      </p>
+    </header>
+
+    <div class="post__content">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}

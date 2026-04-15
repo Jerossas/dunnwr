@@ -1,0 +1,57 @@
+{{ define "main" }}
+<section class="content-list">
+  <header class="content-list__header">
+    <h1 class="content-list__title">{{ .Title }}</h1>
+    {{ with .Params.description }}
+    <p class="content-list__subtitle">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  <div class="content-list__grid">
+    {{ range .Paginator.Pages }}
+    {{ $page := . }}
+    <article class="card">
+      {{ with $page.Params.cover }}
+      {{ $cover := $page.Resources.GetMatch . }}
+      {{ with $cover }}
+      <a href="{{ $page.RelPermalink }}" class="card__image-link">
+        <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}" class="card__image" loading="lazy">
+      </a>
+      {{ end }}
+      {{ end }}
+
+      <div class="card__body">
+        <h2 class="card__title">
+          <a href="{{ $page.RelPermalink }}" class="card__title-link">
+            {{ $page.Title }}
+          </a>
+        </h2>
+
+        <p class="card__meta">
+          <time datetime="{{ $page.Date }}">
+            {{ $page.Date.Format "02/01/2006" }}
+          </time>
+          {{ with $page.Params.author }}
+          <span class="card__author"> · {{ . }}</span>
+          {{ end }}
+        </p>
+
+        <p class="card__excerpt">
+          {{ with $page.Params.description }}
+          {{ . }}
+          {{ else }}
+          {{ $page.Summary }}
+          {{ end }}
+        </p>
+
+        <a href="{{ $page.RelPermalink }}" class="card__read-more">
+          Leer más
+        </a>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+
+  {{ template "_internal/pagination.html" . }}
+</section>
+{{ end }}
