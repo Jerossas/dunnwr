@@ -84,16 +84,12 @@
         margin-top: 0.5rem;
 
         display: inline-block;
-        padding: 0.4rem 0.9rem;
         border-radius: 999px;
-        border: 1px solid #111;
         font-size: 0.85rem;
-        text-decoration: none;
         color: #111;
 
         &:hover {
-            background-color: #111;
-            color: #fff;
+            color: blue;
         }
     }
 }
