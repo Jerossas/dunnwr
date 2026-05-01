@@ -20,10 +20,8 @@
     {{ partial "breadcrumb.html" . }}
 
     <main class="site-main">
-        <div class="site-main__inner">
-            {{ block "main" . }}
-            {{ end }}
-        </div>
+        {{ block "main" . }}
+        {{ end }}
     </main>
 
     {{ partial "footer.html" . }}
