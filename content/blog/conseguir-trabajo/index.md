@@ -12,7 +12,7 @@ En una de las ofertas, el contrato decía que tenía que estar con ellos 5 años
 
 Pude haber tomado ese puesto y ya estaría trabajando, pero la verdad sentí que no era un lugar en el que mental y fisicamente iba a aguantar mucho tiempo. F. 
 
-Tuve una entrevista técnica para un puesto "Junior" en Bancolombia y me fue como el orto. Me gustaría entrar a ese sapo culiao banco, pero son muy exigentes :C sadge xd
+Tuve una entrevista técnica para un puesto "Junior" en Bancolombia y me fue como el orto. Me gustaría entrar a ese sapo culiao banco, pero son muy exigentes :C sadge xd. Seguiré estudiando y lo seguiré intentando :V. Confio en mis capacidades xd
 
 Yo creo que una de la cosas que es mejor evitar decir en las entrevistas es que al momento de estar con ellos, con ellos me refiero a X empresa, uno se iría si saliese una mejor oportunidad :V
 
