@@ -1,0 +1,9 @@
+{{ $src := .Get "src" }}
+{{ $img := .Page.Resources.GetMatch $src }}
+<span class="emote">
+    {{ if $img }}
+        <img src="{{ $img.RelPermalink }}" alt="{{ .Get "alt" }}" class="emote__image" title="{{ .Get "title" }}">
+    {{ else }}
+        <img src="{{ $src }}" alt="{{ .Get "alt" }}" class="emote__image" title="{{ .Get "title" }}">
+    {{ end }}
+</span>
