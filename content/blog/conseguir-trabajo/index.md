@@ -22,6 +22,4 @@ En conclusión. Todo mal. Espero poder encontrar trabajo este mes de Mayo xd
 
 Hasta la vista baby
 
-{{< gallery size="small" >}}
-  {{< slide src="hasta-la-vista-baby.jpg" caption="Hasta la vista, baby B)" >}}
-{{< /gallery >}}
+![AWS Support Plans](hasta-la-vista-baby.jpg "Hasta la vista, baby")
